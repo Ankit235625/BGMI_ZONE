@@ -1,0 +1,62 @@
+/* Badges */
+.badge {
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 4px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.badge-solo {
+    background: rgba(255, 100, 100, 0.2);
+    color: #ff6464;
+    border: 1px solid #ff6464;
+}
+
+.badge-duo {
+    background: rgba(100, 200, 255, 0.2);
+    color: #64c8ff;
+    border: 1px solid #64c8ff;
+}
+
+.badge-squad {
+    background: rgba(0, 255, 136, 0.2);
+    color: #00ff88;
+    border: 1px solid #00ff88;
+}
+
+.overlay-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(4px);
+}
+
+.card-image {
+    position: relative;
+}
+
+/* Filter Buttons */
+.filters {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn-filter {
+    padding: 8px 24px;
+    font-size: 0.9rem;
+    border-color: #333;
+    color: #888;
+}
+
+.btn-filter:hover,
+.btn-filter.active {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background: rgba(0, 255, 136, 0.1);
+}
